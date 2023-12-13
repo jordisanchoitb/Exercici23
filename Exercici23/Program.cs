@@ -8,5 +8,10 @@ namespace Exercici23
         {
             
         }
+
+        public static int CalcAreaQuadrat(int costat)
+        {
+            return costat * costat;
+        }
     }
 }
