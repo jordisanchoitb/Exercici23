@@ -17,5 +17,9 @@ namespace Exercici23
         {
             return rectanglebase * altura;
         }
+        public static double CalcAreaCercle(int radi)
+        {
+            return Math.PI * radi * radi;
+        }
     }
 }
