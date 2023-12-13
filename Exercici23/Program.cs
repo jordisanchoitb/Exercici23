@@ -21,5 +21,9 @@ namespace Exercici23
         {
             return Math.PI * radi * radi;
         }
+        public static int CalcAreaPentagon(int costat, int apotema)
+        {
+            return 5 * costat * apotema / 2;
+        }
     }
 }
