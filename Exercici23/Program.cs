@@ -13,5 +13,9 @@ namespace Exercici23
         {
             return costat * costat;
         }
+        public static int CalcAreaRectangle(int rectanglebase, int altura)
+        {
+            return rectanglebase * altura;
+        }
     }
 }
